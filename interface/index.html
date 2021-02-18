@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Star DDoS Attacker</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <p class="title">Death Star DoS Attacker</p>
+    <div class="controls">
+        <label for="ip">Victim's ip adress/domain/"router":</label>
+        <input type="text" name="ip" class="ip" id="ip" placeholder="xxx.xxx.xxx.xxx">
+        <br>
+        <label for="selector">Attack Strength(B):</label>
+        <div class="value-selector" id="selector">
+            <input type="range" class="range-input" value="10" min="1" max="65300">
+            <div class="slider">
+                <p class="value">10</p>
+            </div>
+        </div>
+        <div class="attack-button" title="Begin Attack">
+            <p class="label">Begin Attack</p>
+        </div>
+        <div class="output">
+        </div>
+    </div>
+</body>
+</html>
